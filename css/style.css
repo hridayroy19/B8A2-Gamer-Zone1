@@ -65,6 +65,7 @@ color: #FF42A5;
     align-items: center;
     padding: 0px 240px;
     margin-top: 35px;
+    gap: 70px;
  
 }
 .container li {
@@ -76,7 +77,7 @@ color: #FF42A5;
     margin-right: 25px;
 } */
 .banner-img{
-height: 446px;
+width: 90%;
 
 }
 
@@ -139,6 +140,20 @@ padding:  5px 15px;
     margin-top: 15px;
 
     }
+
+    .btn-a{
+        padding: 15px;   
+         border-radius: 15px;
+    background: #FF42A5 ;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 15px;
+    width: 120px;
+    margin-left: 300px;
+    
+
+    }
     .your-proces{
         color: #534C64;
 font-size: 1.4rem;
@@ -163,24 +178,23 @@ margin: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding:52px 200px ;
-        gap: 0px 20px;
+        padding:52px 240px ;
+        gap: 0px 50px;
     }
     .gammer-banner{
-    width: 610px;
-    /* height: 450px; */
+    width: 100%;
     
     }
     .banner-about{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
 
     }
     .banner-header{
     font-size: 2.2rem;
     font-weight: 700;
-color: rgb(136, 101, 219);
+    color: rgb(136, 101, 219);
 
 
     }
@@ -192,38 +206,44 @@ color: rgb(136, 101, 219);
     /* main play game style */
     .play-game{
         display: flex;
-        justify-content: center;
-        align-items: center; 
-        
-  
+     justify-content: center;
+        align-items: center;
+        padding: 20px 200px;
     }
     .play-game-section{
-        padding:30px 25px;
+       background-color: wheat;
 
     }
 .play-title{
-    font-size:2rem;
+    font-size: 2.2rem;
     font-weight: 700;
+    color: #0B0223;
+  
 
 }
 .play-about-section{
     color:#534C64;
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight: 400;
 
 }
 .play-banner-pic{
-    width: 70%;
+    width: 100%;
+    height: 200px;
+    
 
 }
 .play-banner-picture{
-    width: 40%;
+    width: 50%;
     position: relative;
-    top: -140px;
-    left: 50%;
+    top:-110px;
+    right: 40px;
    
 }
-
+.online-game-section{
+    
+    
+}
 
 
 
@@ -235,12 +255,18 @@ color: rgb(136, 101, 219);
     display: flex;
 }
 .Careres-grup{
-    width: 100%;
+    width: 80%;
 }
 
 .careret-title{
-    padding: 20px 240px;
+    padding: 20px 220px;
 }
+.careres-dis{
+    color: #FFF;
+font-size: 1.1rem;
+font-weight: 400;
+}
+
 .roy{
     display: flex;
     margin-top: 20px;
@@ -311,7 +337,21 @@ margin: 0px 10px;
 }
 
 
+.online-gam-title{
+    color: #0B0223;
+font-size: 2.8rem;
+font-weight: 700;
 
+
+}
+.funny{
+    color: #F948B2;
+}
+.online-gam-section{
+    color: #534C64;
+font-size:1.1rem;
+font-weight: 400;
+}
 
 
 
@@ -431,8 +471,11 @@ font-weight: 600;
 
     @media screen and (max-width:576px) {
         .game-header-container{
-            flex-direction: column;
-    
+        
+         flex-direction: column;   
+        padding:30px;
+            
+           
         }
         .online-img{
             flex-direction: column;
@@ -441,8 +484,16 @@ font-weight: 600;
         .online-game-section{
 padding: 20px;
         }
+       
         .game-banner-section{
-            flex-direction: column;
+            
+        
+        flex-direction: column;
+    
+            padding: 20px;
+            margin-top: 10px;
+            gap: 10px;
+         
         }
         .gammer-container{
             flex-direction: column;
@@ -498,9 +549,17 @@ padding: 20px;
 
 
     @media screen and (min:576px) and ( max-width:876px){
-        .game-header-container .game-banner-section .gammer-section{
-            flex-direction: column;
-            padding: 10px;
+
+        .gammer-container{
+            flex-direction:column;
+            padding:52px;
+            gap: 20px;
         }
         
+
+           .gammer-container{
+            flex-direction: column;
+            padding:52px ;
+            gap: 10px;
+        }
     }
